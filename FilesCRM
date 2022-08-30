@@ -1,0 +1,15 @@
+public void acti()
+	{
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://demo.actitime.com/login.do");
+		
+		WebElement checkbox = driver.findElement(By.id("keepLoggedInCheckBox"));
+		
+		//Assert.assertTrue(checkbox.isSelected());
+		
+		Assert.assertFalse(checkbox.isSelected());
+		
+		System.out.println("checkbox is displayed");
+		
+	}
