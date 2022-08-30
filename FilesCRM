@@ -14,5 +14,7 @@ public void acti()
 		
 		System.out.println("checkbox is displayed");
 		System.out.println("checkbox is displayed");
+		System.out.println("checkbox is displayed");
+
 		
 	}
